@@ -13,7 +13,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #000000;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -45,7 +45,8 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 50px;
+                font-weight: bold;
             }
 
             .links > a {
@@ -81,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Belajar Web Lanjut dengan Framework Laravel
                 </div>
 
                 <div class="links">
