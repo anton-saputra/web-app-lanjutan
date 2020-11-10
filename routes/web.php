@@ -41,6 +41,10 @@ route::get("/minuman", function () {
 
 use App\Http\Controllers\UtamaController;
 Route::get("/utama/test", [UtamaController::class, "test"]);
+Route::get("/tema/bootstrap", [UtamaController::class, "index"]);
+Route::get("/artikel", [UtamaController::class, "artikel"]);
+Route::get("/trending", [UtamaController::class, "trending"]);
+Route::get("/hiburan", [UtamaController::class, "hiburan"]);
 
 use App\Http\Controllers\SatuController;
 Route::get("/utama/method-1", [SatuController::class, "method1"]);
