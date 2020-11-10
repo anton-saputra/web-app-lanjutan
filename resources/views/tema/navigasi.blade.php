@@ -1,38 +1,45 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">TI</a>
-        <button class="navbar-toggler" type="button" data-
-toggle="collapse" data-target="#navbarTogglerDemo02" aria-
-cont.rols="navbarTogglerDemo02" aria-expanded="false" aria-
-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
- 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/tema/bootstrap">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/artikel">Artikel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/trending">Trending</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/hiburan">Hiburan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-
-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-
-0" type="submit">Search</button>
-            </form>
-        </div>
+      <a class="navbar-brand" href="#">Anton Saputra</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/tema/bootstrap">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/artikel">Artikel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/hiburan">Hiburan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/trending">Trending</a>
+          </li>
+        </ul>
+      </div>
     </div>
- 
- </nav>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+        <h1 class="my-4">Search</h1>
+            <div class="list-group">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+      </div>
+
+        <div class="col-lg-9">
+            <div class="card mt-4">
+                <div class="card-body">
+                
